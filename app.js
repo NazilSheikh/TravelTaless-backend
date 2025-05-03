@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 });
 
 app.use(cors({
-    origin: 'http://localhost:5173', // Allow only your frontend
+    origin:   'https://travel-taless-kjse-git-main-nazil-sheikhs-projects.vercel.app' , // Allow only your frontend
     credentials: true, // Allow cookies if needed
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed methods
     allowedHeaders: ['Content-Type', 'Authorization'] // Allowed headers
